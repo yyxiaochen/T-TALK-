@@ -1,0 +1,167 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style":{
+				"backgroundColor":"#12121f",
+				"h5":{
+					"titleNView": false
+				},
+				"mp-weixin":{
+					"navigationBarTitleText": "单身宝盒",
+					"navigationBarTextStyle":"white",
+					"navigationBarBackgroundColor":"#12121f"
+				}
+			}
+		}, 
+		{
+			"path": "pages/login/login",
+			"style":{
+				"h5":{
+					"titleNView": false
+				},
+				"mp-weixin":{
+					"navigationBarTitleText": "登录"
+				}
+			}
+		},
+		{
+			"path": "pages/clip-avator/clip-avator",
+			"style":{
+				"h5":{
+					"titleNView": false
+				},
+				"mp-weixin":{
+					"navigationBarTitleText": "裁剪头像"
+				}
+			}
+		},
+		{
+			"path": "pages/introduce/introduce",
+			"style":{
+				"h5":{
+					"titleNView": false
+				},
+				"mp-weixin":{
+					"navigationBarTitleText": "单身宝盒介绍"
+				}
+			}
+		},
+		{
+			"path": "pages/open-record/open-record",
+			"style":{
+				"enablePullDownRefresh": true,
+				"h5":{
+					"titleNView": false
+				},
+				"mp-weixin":{
+					"navigationBarTitleText": "盲盒开启记录"
+				}
+			}
+		},
+		{
+			"path": "pages/invite/invite",
+			"style":{
+				"enablePullDownRefresh": true,
+				"h5":{
+					"titleNView": false
+				},
+				"mp-weixin":{
+					"navigationBarTitleText": "邀请好友"
+				}
+			}
+		},
+		{
+			"path": "pages/invite/user_record",
+			"style":{
+				"enablePullDownRefresh": true,
+				"h5":{
+					"titleNView": false
+				},
+				"mp-weixin":{
+					"navigationBarTitleText": "邀请记录"
+				}
+			}
+		},
+		{
+			"path": "pages/invite/wallet_record",
+			"style":{
+				"h5":{
+					"titleNView": false
+				},
+				"mp-weixin":{
+					"navigationBarTitleText": "佣金记录"
+				}
+			}
+		},
+		{
+			"path": "pages/save-info/save-info",
+			"style":{
+				"h5":{
+					"titleNView": false
+				},
+				"mp-weixin":{
+					"navigationBarTitleText": "存入信息"
+				}
+			}
+		},
+		{
+			"path": "pages/show-info/show-info",
+			"style":{
+				"h5":{
+					"titleNView": false
+				},
+				"mp-weixin":{
+					"navigationBarTitleText": "盲盒展示"
+				}
+			}
+		},
+		{
+			"path": "pages/pra/pra",
+			"style":{
+				"h5":{
+					"titleNView": false
+				},
+				"mp-weixin":{
+					"navigationBarTitleText": "用户协议与隐私政策"
+				}
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarBackgroundColor":"#FFFFFF", 
+		"backgroundColor": "#FFF",
+		"navigationBarTitleText":"单身宝盒",
+		"navigationBarTextStyle":"black",
+		"navigationStyle": "default",
+		"app-plus":{  
+			"softinputNavBar": "none",
+			"softinputMode": "adjustPan",
+			"bounce":"none",
+			"pullToRefresh":{
+				"color":"#411ec8",
+				"style":"circle",
+				"offset":"50px"
+			}
+		}
+	}
+	/*,"tabBar": {
+	    "color": "#9aa0a5",
+	    "selectedColor": "#411ec8",
+		"borderStyle": "#ececec", 
+		//"borderStyle": "white", 
+		"spacing":"2",
+	    "backgroundColor": "#FFF",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/img/nav0.png",
+	        "selectedIconPath": "static/img/nav0_hover.png",
+	        "text": "首页"
+	    },{ 
+	        "pagePath": "pages/my/index",
+	        "iconPath": "static/img/nav1.png",
+	        "selectedIconPath": "static/img/nav1_hover.png",
+	        "text": "我的"
+	    }]
+	}*/
+}
